@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import time
 
-genai.configure(api_key="AIzaSyAl9TIlTRiSiQzlOamHlS80qk5C8TQFvuI")
+genai.configure(api_key="Put your API KEY HERE")
 
 model = genai.GenerativeModel("models/gemini-flash-latest")
 
@@ -38,3 +38,4 @@ Now reply to the user.
     except Exception as e:
         print("⚠ Gemini error:", e)
         return "I'm a bit busy right now  Please try again in a minute."
+
