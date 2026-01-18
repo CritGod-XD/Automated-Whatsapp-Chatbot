@@ -38,7 +38,7 @@ WebDriverWait(driver, 60).until(
     EC.presence_of_element_located((By.XPATH, "//div[@role='grid']"))
 )
 
-print("✅ Logged in. Bot is live 🤖")
+print("✅ Logged in. Bot is live ")
 
 
 
@@ -151,3 +151,4 @@ while True:
     except Exception as e:
         print(" Runtime error:", e)
         time.sleep(5)
+
